@@ -1,59 +1,19 @@
-# :two_hearts: Health Care Chat-Bot 🤖
-Project for the 6th Semester Subject -> Machine Learning
+In a country like our India where the population is huge, the requirement of doctors is also huge. But the doctor patient ratio in India is 1:1456 against the WHO recommendation of 1:1000. 
+The major challenges that India as a country is facing is to cater good quality and affordable healthcare services to its growing population and at the same time, they are not cost efficient. The condition in India was getting worse because of lack of transportation, availability of doctors and hospitality. Sometimes it causes the people to postpone their treatment as well as there is an increment in death count.
+The society is unbiased about women especially about their health issues hence they face disparity in the society. Women feel hesitant to talk about or speak about their health issues or problems openly.
 
-Health Care Chat-Bot is a Healthcare Domain Chatbot to simulate the predictions of a General Physician.
+To mitigate the challenges posed by this shortage, the project introduces an intelligent chatbot designed to provide medical advice to both doctors and patients. This chatbot leverages a meticulously researched dataset and employs machine learning to suggest diagnoses based on the symptoms provided. Furthermore, it can offer around-the-clock medical support, thereby alleviating the burden on healthcare professionals. The chatbot operates through text-based interactions and utilizes AI to retrieve and communicate responses effectively.
+The system follows a question-and-answer protocol and allows users to input their symptoms, after which it matches the symptoms to the dataset to provide accurate disease diagnoses. The project is implemented in Python and features a graphical user interface created using Tkinter for user-friendly interaction. 
+The chatbot will take the input from the user and then process the input by using algorithms. Bot will apply the decision tree algorithms on whatever the user give the input to the bot.It will understand the input by using algorithms, set of symptoms in the database.The chatbot will predict the disease based on user’s answers and give prescriptions accordingly 
 
-## :page_with_curl: Brief
-Through chatbots one can communicate with text or voice interface and get reply through artificial intelligence
+1.A user friendly graphical user interface that is used to interact with the patient and provide accurate diagnosis.
+2. It can provide doctor details for both Delhi and Vellore as it is trained on both the datasets. Thus, it can be used by locals of Vellore and Delhi extensively as this can cause reduction in their healthcare expenditure.
+3.The chatbot emphasizes greatly on women centric diseases and can be used greatly by women as they are often hesitant to speak about it.
+4.I have also created a GUI for doctors using PyQT5 where the doctors can enter their details and these details will be updated to the doctor’s dataset that will be accessible to patients.
 
-Typically, a chat bot will communicate with a real person. 
-Chat bots are used in applications such as 
-
-1. E-commerce customer service,
-2. Call centres, 
-3. Internet gaming. 
-
-Chatbots are programs built to automatically engage with received messages. Chatbots can be programmed to respond the same way each time, to respond differently to messages containing certain keywords and even to use machine learning to adapt their responses to fit the situation. 
-A developing number of hospitals, nursing homes, and even private centres, presently utilize online Chatbots for human services on their sites. These bots connect with potential patients visiting the site, helping them discover specialists, booking their appointments, and getting them access to the correct treatment. 
-In any case, the utilization of artificial intelligence in an industry where individuals’ lives could be in question, still starts misgivings in individuals. It brings up issues about whether the task mentioned above ought to be assigned to human staff. This healthcare chatbot system will help hospitals to provide healthcare support online 24 x 7, it answers deep as well as general questions. It also helps to generate leads and automatically delivers the information of leads to sales. By asking the questions in series it helps patients by guiding what exactly he/she is looking for. 
-
-## :card_index: Features
-- Register Screen.
-- Sign-in Screen.
-- Generates database for user login system.
-- Offers you a GUI Based Chatbot for patients for diagnosing. [A pragmatic Approach for Diagnosis]
-- Reccomends an appropriate doctor to you for the following symptom.
-
-## :scroll: Modules Used
-Our	program	uses	a	number	of	python	modules	to	work	properly:
-
-1. tkinter 
-1. os
-1. webbrowser
-1. numpy
-1. pandas
-1. matplotlib
-
-## :white_square_button: Installation 
-Install the following package by typing the following in CMD
-
-- `pip install numpy`
-- `pip install pandas`
-- `pip install matplotlib`
-
-To make sure it is installed correctly, open IDLE and execute :
-
-- `import numpy`
-- `import pandas`
-- `import matplotlib`
-
-If no errors appeared then the installation is done correctly.
-Then, Go to your directory and run the file `QuestionDiagonosisTkinter.py`
-
-
-## :suspect: Project Members
-
-- [Aryan Veturekar](https://github.com/aryanveturekar)
-- [Himanshu Singh](https://github.com/himanshusiingh)
-- [Danish Shaikh](https://github.com/danishsshaikh)
+Steps to follow:
+1. Install Spyder IDE.
+2. Clone the repository from github.
+3. Run the QuestionDiagnosisTkinter file if you are a patient or willing to know about a disease.
+4. Run the DoctorCode file if you are a doctor who is willing to enroll in the chatbot.
 
