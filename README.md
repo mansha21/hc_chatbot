@@ -12,7 +12,7 @@ The chatbot will take the input from the user and then process the input by usin
 4.I have also created a GUI for doctors using PyQT5 where the doctors can enter their details and these details will be updated to the doctor’s dataset that will be accessible to patients.
 
 Steps to follow:
-1. Install Spyder IDE.
+1. Install Spyder IDE.Refer https://docs.anaconda.com/free/anaconda/install/windows/
 2. Clone the repository from github.
 3. Run the QuestionDiagnosisTkinter file if you are a patient or willing to know about a disease.
 4. Run the DoctorCode file if you are a doctor who is willing to enroll in the chatbot.
